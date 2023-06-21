@@ -1,46 +1,42 @@
  .u-section-1 {
-  background-image: url("np://user.desktop.nicepage.com/Site_616817042/images/ezgif.com-gif-maker1.gif?rand=e452");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/_450cb75a-c269-436e-9430-db5cb4f25856.jpeg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 756px;
+  min-height: 676px;
 }
 
 .u-section-1 .u-text-1 {
   text-align: justify;
-  margin: 60px 630px 0 0;
-}
-
-.u-section-1 .u-text-2 {
-  text-align: justify;
   font-size: 1.125rem;
-  font-weight: 400;
-  margin: 47px 630px 0 0;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: 92px 630px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
+  background-image: none;
+  
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
   background-image: none;
+  
   margin: 20px auto 60px 0;
   padding: 15px 54px 17px 53px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 623px;
+    min-height: 557px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 6rem;
-    font-weight: bold;
-    margin-right: 430px;
-    width: 510px;
-  }
-
-  .u-section-1 .u-text-2 {
     margin-right: 430px;
     width: 510px;
   }
@@ -52,11 +48,6 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 4.5rem;
-    margin-right: 210px;
-  }
-
-  .u-section-1 .u-text-2 {
     font-size: 1rem;
     width: auto;
     margin-right: 360px;
@@ -73,10 +64,6 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 30px;
-  }
-
-  .u-section-1 .u-text-2 {
     margin-right: 180px;
   }
 }
@@ -91,16 +78,11 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 3.75rem;
-    width: 340px;
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-text-2 {
     margin-right: 0;
   }
 } .u-section-2 {
   background-image: none;
+  
 }
 
 .u-section-2 .u-sheet-1 {
@@ -110,6 +92,11 @@
 .u-section-2 .u-text-1 {
   font-size: 2.25rem;
   font-weight: 700;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 60px auto 0 0;
 }
 
@@ -123,31 +110,36 @@
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
+  grid-template-columns: repeat(3, calc(33.3333% - 13.3333px));
   min-height: 375px;
-  grid-gap: 20px 20px;
+  grid-gap: 20px;
 }
 
 .u-section-2 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("np://user.desktop.nicepage.com/Site_616817042/images/top-view-image-motivated-employees-working-together-office-official-meeting-concept-business.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/_24f7721c-9106-415b-aa02-de2097187a1a.jpg');
   background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 55px 30px;
+  padding: 57px 30px;
 }
 
 .u-section-2 .u-icon-1 {
   width: 122px;
   height: 122px;
-  background-image: none;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  
   margin: 0 auto 0 0;
   padding: 34px;
 }
 
 .u-section-2 .u-text-3 {
   font-weight: 700;
-  margin: 35px auto 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-2 .u-text-4 {
@@ -156,23 +148,30 @@
 
 .u-section-2 .u-list-item-2 {
   background-image: none;
+  
 }
 
 .u-section-2 .u-container-layout-2 {
-  padding: 55px 30px;
+  padding: 57px 30px;
 }
 
 .u-section-2 .u-icon-2 {
   width: 122px;
   height: 122px;
   background-image: none;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  
   margin: 0 auto 0 0;
   padding: 34px;
 }
 
 .u-section-2 .u-text-5 {
   font-weight: 700;
-  margin: 35px auto 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-2 .u-text-6 {
@@ -180,25 +179,30 @@
 }
 
 .u-section-2 .u-image-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("np://user.desktop.nicepage.com/Site_616817042/images/front-view-team-meeting-mock-up.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/_6294e4ff-c5d8-40f4-8c37-262707636f82.jpg');
   background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-3 {
-  padding: 55px 30px;
+  padding: 57px 30px;
 }
 
 .u-section-2 .u-icon-3 {
   width: 122px;
   height: 122px;
-  background-image: none;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  
   margin: 0 auto 0 0;
   padding: 34px;
 }
 
 .u-section-2 .u-text-7 {
   font-weight: 700;
-  margin: 35px auto 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-2 .u-text-8 {
@@ -289,13 +293,18 @@
 }
 
 .u-section-3 .u-container-layout-1 {
-  padding: 30px;
+  padding: 30px 29px;
 }
 
 .u-section-3 .u-text-1 {
   font-weight: 700;
   font-size: 2.25rem;
-  margin: 0;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 9px 1px 0;
 }
 
 .u-section-3 .u-layout-cell-2 {
@@ -312,7 +321,8 @@
   font-size: 1.25rem;
   letter-spacing: 2px;
   background-image: none;
-  margin: 12px 3px 0 auto;
+  
+  margin: 0 0 0 auto;
   padding: 20px 49px 20px 47px;
 }
 
@@ -329,12 +339,13 @@
     min-height: 129px;
   }
 
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 129px;
+  .u-section-3 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .u-section-3 .u-btn-1 {
-    margin-right: 0;
+  .u-section-3 .u-layout-cell-2 {
+    min-height: 129px;
   }
 }
 
@@ -396,6 +407,7 @@
   }
 } .u-section-4 {
   background-image: none;
+  
 }
 
 .u-section-4 .u-sheet-1 {
@@ -431,16 +443,19 @@
   height: 122px;
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.25);
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  
+  
   margin: 0 auto 0 0;
   padding: 34px;
 }
 
 .u-section-4 .u-text-1 {
-  text-transform: none;
-  line-height: 28.8px;
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin: 14px 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-4 .u-text-2 {
@@ -466,16 +481,23 @@
   height: 122px;
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.25);
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  
+  
   margin: 0 auto 0 0;
   padding: 34px;
 }
 
 .u-section-4 .u-text-3 {
   font-size: 1.25rem;
-  text-transform: none;
-  line-height: 28.8px;
+  text-transform: uppercase;
+  line-height: 1.2;
   font-weight: 700;
-  margin: 14px 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-4 .u-text-4 {
@@ -501,16 +523,23 @@
   height: 122px;
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.25);
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  
+  
   margin: 0 auto 0 0;
   padding: 34px;
 }
 
 .u-section-4 .u-text-5 {
   font-size: 1.25rem;
-  text-transform: none;
-  line-height: 28.8px;
+  text-transform: uppercase;
+  line-height: 1.2;
   font-weight: 700;
-  margin: 14px 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-4 .u-text-6 {
@@ -536,16 +565,23 @@
   height: 122px;
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.25);
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  
+  
   margin: 0 auto 0 0;
   padding: 34px;
 }
 
 .u-section-4 .u-text-7 {
   font-size: 1.25rem;
-  text-transform: none;
-  line-height: 28.8px;
+  text-transform: uppercase;
+  line-height: 1.2;
   font-weight: 700;
-  margin: 14px 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-4 .u-text-8 {
@@ -571,16 +607,23 @@
   height: 122px;
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.25);
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  
+  
   margin: 0 auto 0 0;
   padding: 34px;
 }
 
 .u-section-4 .u-text-9 {
   font-size: 1.25rem;
-  text-transform: none;
-  line-height: 28.8px;
+  text-transform: uppercase;
+  line-height: 1.2;
   font-weight: 700;
-  margin: 14px 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-4 .u-text-10 {
@@ -606,16 +649,23 @@
   height: 122px;
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.25);
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  
+  
   margin: 0 auto 0 0;
   padding: 34px;
 }
 
 .u-section-4 .u-text-11 {
   font-size: 1.25rem;
-  text-transform: none;
-  line-height: 28.8px;
+  text-transform: uppercase;
+  line-height: 1.2;
   font-weight: 700;
-  margin: 14px 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-4 .u-text-12 {
@@ -673,6 +723,7 @@
   }
 } .u-section-5 {
   background-image: none;
+  
 }
 
 .u-section-5 .u-sheet-1 {
@@ -686,7 +737,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 255px;
-  background-image: url("np://user.desktop.nicepage.com/Site_616817042/images/female-work-brainstorming.jpg?rand=c0f4");
+  background-image: url("images/_0fe864e7-f510-400c-85da-06e013be1986.jpeg");
   background-position: 50% 50%;
 }
 
@@ -703,8 +754,6 @@
 }
 
 .u-section-5 .u-text-1 {
-  font-size: 1.25rem;
-  font-weight: 700;
   margin: 0 auto 0 0;
 }
 
@@ -714,7 +763,7 @@
 
 .u-section-5 .u-image-2 {
   min-height: 255px;
-  background-image: url("np://user.desktop.nicepage.com/Site_616817042/images/16758708_rm405-da01-04-mockup.jpg?rand=0fa1");
+  background-image: url("images/fb30492e-c8e5-4a8e-8ee9-a30beb29b44c.png");
   background-position: 50% 50%;
 }
 
@@ -724,7 +773,7 @@
 
 .u-section-5 .u-image-3 {
   min-height: 255px;
-  background-image: url("np://user.desktop.nicepage.com/Site_616817042/images/front-view-team-meeting-mock-up.jpg?rand=2848");
+  background-image: url("images/_8ca3f040-f035-43ca-a312-5df833a3bfca.jpeg");
   background-position: 50% 50%;
 }
 
@@ -734,7 +783,7 @@
 
 .u-section-5 .u-image-4 {
   min-height: 255px;
-  background-image: url("np://user.desktop.nicepage.com/Site_616817042/images/top-view-image-motivated-employees-working-together-office-official-meeting-concept-business.jpg?rand=97b1");
+  background-image: url("images/_eb7069b1-c9ec-46bf-93f1-d5f3b9f326ac.jpeg");
   background-position: 50% 50%;
 }
 
@@ -744,7 +793,7 @@
 
 .u-section-5 .u-image-5 {
   min-height: 255px;
-  background-image: url("np://user.desktop.nicepage.com/Site_616817042/images/planning-risk-strategy-project-management-business.jpg?rand=bae7");
+  background-image: url("images/e428a5ee-7cda-4b48-97e9-71ade1b549dd.png");
   background-position: 50% 50%;
 }
 
@@ -754,7 +803,7 @@
 
 .u-section-5 .u-image-6 {
   min-height: 255px;
-  background-image: url("np://user.desktop.nicepage.com/Site_616817042/images/group-people-working-out-business-plan-office.jpg?rand=3ea1");
+  background-image: url("images/_450cb75a-c269-436e-9430-db5cb4f25856.jpeg");
   background-position: 50% 50%;
 }
 
@@ -771,8 +820,6 @@
 }
 
 .u-section-5 .u-text-3 {
-  font-size: 1.25rem;
-  font-weight: 700;
   margin: 0 auto 0 0;
 }
 
@@ -782,11 +829,6 @@
 
 .u-section-5 .u-text-5 {
   margin: 30px auto 60px 0;
-}
-
-.u-section-5 .u-btn-1 {
-  background-image: none;
-  padding: 0;
 }
 
 @media (max-width: 1199px) {
@@ -990,32 +1032,26 @@
     margin-bottom: -199px;
   }
 } .u-section-6 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("np://user.desktop.nicepage.com/Site_616817042/images/silhouette-business-people-discussion-meeting-cityscape-team-concept.jpg?rand=fd9f");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/_24f7721c-9106-415b-aa02-de2097187a1a.jpg?rand=eb2a");
   background-position: 50% 50%;
 }
 
 .u-section-6 .u-sheet-1 {
-  min-height: 430px;
+  min-height: 318px;
 }
 
 .u-section-6 .u-text-1 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin: 70px 429px 0 0;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 69px 429px 0 0;
 }
 
 .u-section-6 .u-text-2 {
   font-size: 1rem;
-  margin: 38px auto 0 0;
-}
-
-.u-section-6 .u-text-3 {
-  margin: 150px 994px 1px 0;
-}
-
-.u-section-6 .u-btn-1 {
-  background-image: none;
-  padding: 0;
+  margin: 38px auto -294px 0;
 }
 
 @media (max-width: 1199px) {
@@ -1026,56 +1062,29 @@
   .u-section-6 .u-text-1 {
     margin-right: 229px;
   }
-
-  .u-section-6 .u-text-3 {
-    margin-right: 794px;
-    margin-bottom: 50px;
-  }
 }
 
 @media (max-width: 991px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 272px;
+    min-height: 201px;
   }
 
   .u-section-6 .u-text-1 {
     margin-right: 9px;
-    font-size: 1.875rem;
-  }
-
-  .u-section-6 .u-text-3 {
-    margin-right: 574px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 204px;
+    min-height: 410px;
   }
 
   .u-section-6 .u-text-1 {
     margin-right: 0;
   }
-
-  .u-section-6 .u-text-3 {
-    margin-right: 394px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-6 .u-sheet-1 {
-    min-height: 128px;
-  }
-
-  .u-section-6 .u-text-1 {
-    font-size: 1.5rem;
-  }
-
-  .u-section-6 .u-text-3 {
-    margin-right: 194px;
-  }
 } .u-section-7 {
   background-image: none;
+  
 }
 
 .u-section-7 .u-sheet-1 {
@@ -1097,7 +1106,7 @@
   font-size: 1.25rem;
   line-height: 1.8;
   font-weight: 700;
-  margin: 18px 0 0;
+  margin: 0;
 }
 
 .u-section-7 .u-text-2 {
@@ -1112,13 +1121,14 @@
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+  
   margin: 35px auto 0 0;
   padding: 17px 45px 18px 44px;
 }
 
 .u-section-7 .u-list-1 {
   width: 505px;
-  margin: -642px 0 90px auto;
+  margin: -625px 0 73px auto;
 }
 
 .u-section-7 .u-repeater-1 {
@@ -1129,6 +1139,12 @@
 
 .u-section-7 .u-list-item-1 {
   background-image: none;
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  
 }
 
 .u-section-7 .u-container-layout-2 {
@@ -1139,7 +1155,8 @@
   height: 33px;
   width: 33px;
   background-image: none;
-  margin: 10px auto 0 0;
+  
+  margin: 29px auto 0 0;
 }
 
 .u-section-7 .u-text-3 {
@@ -1153,6 +1170,12 @@
 
 .u-section-7 .u-list-item-2 {
   background-image: none;
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  
 }
 
 .u-section-7 .u-container-layout-3 {
@@ -1163,7 +1186,8 @@
   height: 33px;
   width: 33px;
   background-image: none;
-  margin: 10px auto 0 0;
+  
+  margin: 29px auto 0 0;
 }
 
 .u-section-7 .u-text-5 {
@@ -1251,7 +1275,7 @@
     margin-right: 0;
   }
 } .u-section-8 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("np://user.desktop.nicepage.com/Site_616817042/images/jhhhhhh.jpg?rand=538a");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/_6294e4ff-c5d8-40f4-8c37-262707636f82.jpg?rand=ad0a");
   background-position: 50% 50%;
 }
 
@@ -1274,20 +1298,17 @@
 
 .u-section-8 .u-text-1 {
   font-weight: 700;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 0 1px;
-}
-
-.u-section-8 .u-text-2 {
-  margin: 32px 1px 0;
-}
-
-.u-section-8 .u-btn-1 {
-  padding: 0;
 }
 
 .u-section-8 .u-list-1 {
   width: 417px;
-  margin: 31px auto 0 1px;
+  margin: 89px auto 0 1px;
 }
 
 .u-section-8 .u-repeater-1 {
@@ -1300,12 +1321,12 @@
   padding: 20px 30px 15px 0;
 }
 
-.u-section-8 .u-text-3 {
+.u-section-8 .u-text-2 {
   letter-spacing: 0px;
-  text-transform: none;
   font-weight: 700;
   font-size: 1.25rem;
-  margin: 6px 1px 0;
+  text-transform: uppercase;
+  margin: 0 1px;
 }
 
 .u-section-8 .u-icon-1 {
@@ -1314,20 +1335,20 @@
   font-size: 1.1em;
 }
 
-.u-section-8 .u-text-4 {
-  margin: 21px 1px 0;
+.u-section-8 .u-text-3 {
+  margin: 27px 1px 0;
 }
 
 .u-section-8 .u-container-layout-3 {
   padding: 20px 30px 15px 0;
 }
 
-.u-section-8 .u-text-5 {
+.u-section-8 .u-text-4 {
   letter-spacing: 0px;
-  text-transform: none;
   font-weight: 700;
   font-size: 1.25rem;
-  margin: 6px 1px 0;
+  text-transform: uppercase;
+  margin: 0 1px;
 }
 
 .u-section-8 .u-icon-2 {
@@ -1336,20 +1357,20 @@
   font-size: 1.1em;
 }
 
-.u-section-8 .u-text-6 {
-  margin: 21px 1px 0;
+.u-section-8 .u-text-5 {
+  margin: 27px 1px 0;
 }
 
 .u-section-8 .u-container-layout-4 {
   padding: 20px 30px 15px 0;
 }
 
-.u-section-8 .u-text-7 {
+.u-section-8 .u-text-6 {
   letter-spacing: 0px;
-  text-transform: none;
   font-weight: 700;
   font-size: 1.25rem;
-  margin: 6px 1px 0;
+  text-transform: uppercase;
+  margin: 0 1px;
 }
 
 .u-section-8 .u-icon-3 {
@@ -1358,23 +1379,58 @@
   font-size: 1.1em;
 }
 
-.u-section-8 .u-text-8 {
-  margin: 21px 1px 0;
+.u-section-8 .u-text-7 {
+  margin: 27px 1px 0;
 }
 
-.u-section-8 .u-btn-2 {
+.u-section-8 .u-btn-1 {
   background-image: none;
   padding: 0;
 }
 
-.u-section-8 .u-image-1 {
+.u-section-8 .u-layout-cell-2 {
   min-height: 578px;
-  background-image: url("np://user.desktop.nicepage.com/Site_616817042/images/young-successful-businessman-correcting-tie.jpg?rand=9813");
-  background-position: 50% 50%;
 }
 
 .u-section-8 .u-container-layout-5 {
   padding: 30px;
+}
+
+.u-section-8 .u-form-1 {
+  height: 508px;
+  width: 509px;
+  margin: 4px auto 0;
+}
+
+.u-section-8 .u-label-1 {
+  font-weight: 700;
+}
+
+.u-section-8 .u-label-2 {
+  font-weight: 700;
+}
+
+.u-section-8 .u-form-group-3 {
+  margin-left: 0;
+}
+
+.u-section-8 .u-label-3 {
+  font-weight: 700;
+}
+
+.u-section-8 .u-label-4 {
+  font-weight: 700;
+}
+
+.u-section-8 .u-btn-2 {
+  background-image: none;
+  border-style: none;
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: 700;
+  
+  padding: 14px 0 15px;
 }
 
 @media (max-width: 1199px) {
@@ -1395,11 +1451,6 @@
     margin-right: 0;
   }
 
-  .u-section-8 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   .u-section-8 .u-list-1 {
     width: 396px;
     margin-left: 0;
@@ -1407,6 +1458,11 @@
 
   .u-section-8 .u-repeater-1 {
     grid-template-columns: 100%;
+  }
+
+  .u-section-8 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-8 .u-text-3 {
@@ -1434,13 +1490,12 @@
     margin-right: 0;
   }
 
-  .u-section-8 .u-text-8 {
-    margin-left: 0;
-    margin-right: 0;
+  .u-section-8 .u-layout-cell-2 {
+    min-height: 448px;
   }
 
-  .u-section-8 .u-image-1 {
-    min-height: 477px;
+  .u-section-8 .u-form-1 {
+    width: 426px;
   }
 }
 
@@ -1457,8 +1512,12 @@
     width: 290px;
   }
 
-  .u-section-8 .u-image-1 {
-    min-height: 365px;
+  .u-section-8 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-8 .u-form-1 {
+    width: 312px;
   }
 }
 
@@ -1484,27 +1543,41 @@
     padding-right: 10px;
   }
 
-  .u-section-8 .u-image-1 {
-    min-height: 548px;
+  .u-section-8 .u-layout-cell-2 {
+    min-height: 572px;
   }
 
   .u-section-8 .u-container-layout-5 {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-section-8 .u-form-1 {
+    width: 515px;
+  }
 }
 
 @media (max-width: 575px) {
-  .u-section-8 .u-image-1 {
-    min-height: 345px;
+  .u-section-8 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-8 .u-form-1 {
+    width: 320px;
   }
 }.u-section-9 .u-sheet-1 {
-  min-height: 224px;
+  min-height: 218px;
 }
 
 .u-section-9 .u-custom-html-1 {
-  margin-bottom: -28px;
   height: auto;
   min-height: 208px;
-  margin-top: 8px;
+  margin: 5px 0 -25px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-9 .u-custom-html-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
 }
